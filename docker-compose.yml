@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    image: yt_loader
+    volumes:
+      - ./input_dir:/app/input_dir
+      - ./output_dir:/app/output_dir
+      - ./logs_dir:/app/logs_dir
+    restart: always
+    environment:
+      - PYTHONUNBUFFERED=1  # Ensure the logs are flushed in real-time
+    command: ["python", "main.py"]

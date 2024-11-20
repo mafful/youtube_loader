@@ -1,0 +1,5 @@
+
+aiohttp
+ffmpeg
+yt-dlp
+python-dotenv

@@ -1,0 +1,18 @@
+# .gitignore template for Python projects
+*.pyc
+*.pyo
+__pycache__/
+.env
+*.env
+
+# Ignore all files inside output_dir, input_dir, and logs_dir, but keep the directory structure
+output_dir/*
+input_dir/*
+logs_dir/*
+
+# But don't ignore the directories themselves
+!output_dir/
+!input_dir/
+!logs_dir/
+
+.DS_Store
