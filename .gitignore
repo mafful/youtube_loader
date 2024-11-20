@@ -10,10 +10,10 @@ __pycache__/
 !input_dir/
 !logs_dir/
 
-# Ignore all files inside output_dir, input_dir, and logs_dir, but keep the directory structure
-output_dir/*
-input_dir/*
-logs_dir/*
+# Track the directories (by keeping an empty .gitkeep file inside them)
+!output_dir/.gitkeep
+!input_dir/.gitkeep
+!logs_dir/.gitkeep
 
 
 

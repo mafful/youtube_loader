@@ -1,0 +1,3 @@
+touch input_dir/.gitkeep
+touch output_dir/.gitkeep
+touch logs_dir/.gitkeep
